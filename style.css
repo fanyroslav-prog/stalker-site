@@ -1,0 +1,79 @@
+/* Базові стилі сторінки для атмосфери S.T.A.L.K.E.R. */
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2b2b2b;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ffcc00;
+}
+
+h1, h2 {
+    color: #ffcc00;
+}
+
+/* БОНУСНЕ ЗАВДАННЯ: Стилізація спискового меню */
+nav ul {
+    list-style-type: none; /* Прибираємо маркери списку */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Вистроюємо елементи у горизонтальному порядку */
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #444444;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ffcc00; /* Зміна кольору фону при наведенні миші */
+    color: #000000;
+}
+
+nav a:active {
+    background-color: #ccaa00; /* Зміна кольору фону при натисканні */
+}
+
+/* Стилі для основного контенту та таблиці мутантів */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #555555;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333333;
+    color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2b2b2b;
+    margin-top: 20px;
+    border-top: 1px solid #ffcc00;
+}
